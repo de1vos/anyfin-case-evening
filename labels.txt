@@ -1,0 +1,29 @@
+Income
+income.employment:	Salary and wages from an employer.
+income.public:	Benefits and allowances from public bodies, such as child benefit from Försäkringskassan.
+income.sales:	Selling your own things on a marketplace such as Tradera or Blocket.
+income.capital:	Interest and dividends.
+
+Spending
+spend.housing:	Rent, electricity, internet and phone, moving costs.
+spend.groceries:	Supermarkets and food shops.
+spend.dining:	Restaurants, cafés, fast food and food delivery.
+spend.transport:	Public transport, taxis and ride-hailing, scooters, fuel, parking, bridge tolls.
+spend.shopping:	Clothes, beauty, home and furniture, electronics, DIY, online stores.
+spend.leisure:	Streaming, games, gym, cinema, events, flights, hotels, theme parks.
+spend.health:	Pharmacies, doctors and dentists.
+spend.family:	Childcare and school fees.
+spend.gambling:	Betting, casinos and lotteries, deposits and winnings alike.
+
+Credit
+credit.loan:	Repaying a loan, a credit card bill or a pay-later invoice.
+credit.collections:	Paying a debt collector or Kronofogden, the enforcement authority.
+
+Transfers
+transfer.own:	Between the customer's own everyday accounts, credit card account included.
+transfer.savings:	Into or out of the customer's own savings.
+transfer.person:	To or from a private person, with no purpose stated.
+transfer.cash:	Cash withdrawals.
+
+Not sure
+unknown:	Scores zero, same as a wrong label.

@@ -1,0 +1,11 @@
+To: kth-ai-case@anyfin.com
+Subject: Case submission: <your-name>
+Attachment: <your-name>.csv   (copy of predictions.csv)
+
+Hi,
+
+Predictions are attached as <your-name>.csv (id,category).
+Code and README: <GitHub repo or gist link>
+Command: python classify.py validation-set.csv
+
+<your name>

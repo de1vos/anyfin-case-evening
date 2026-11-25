@@ -1,0 +1,18 @@
+Label the ledger
+
+Build something that gives every transaction exactly one category from the list below. 
+Use anything you like: rules, an LLM called from code, embeddings, a trained model. 
+You're ranked on a test set you haven't seen, so build something that runs on its own, not a list of answers.
+
+Rules where it's not obvious
+- Label by the kind of business that was paid, not the occasion. Groceries bought on holiday are groceries.
+- A refund or a payout takes the category of what it reverses. A returned parcel is spend.shopping and a casino win is spend.gambling.
+- A move between the customer's own accounts is labelled on both rows. If the money goes into or out of an account kept for saving, it's transfer.savings, even when the bank calls that account a checking account.
+- Paying the credit card bill is credit.loan, and so are mortgage payments (bolån, hypotek). The card bill arriving on the card account is transfer.own.
+- Paying a Klarna, Qliro or Walley invoice is credit.loan. A card purchase that runs through a payment provider (KLARNA*, ZETTLE_*, SUMUP *, IZ *, PAYPAL *) takes the category of the shop behind it.
+- Money to or from a person takes the category its message names ("hyra" is rent, so spend.housing). With no message, it's transfer.person.
+
+The program needs to be efficient. So no gigantic model computations, needs to be relatively small to be usable daily.
+
+Check your classifier on the training set
+Paste or upload a CSV with the columns id,category for the training rows. A high score here only means something if your classifier didn't memorise these texts: the test set has almost none of them.
